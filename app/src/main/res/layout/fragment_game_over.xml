@@ -28,11 +28,11 @@
         <ImageView
             android:id="@+id/youLoseImage"
             android:layout_width="wrap_content"
-            android:layout_height="362dp"
+            android:layout_height="300dp"
             android:layout_marginStart="@dimen/horizontal_margin"
             android:layout_marginEnd="@dimen/horizontal_margin"
             android:layout_marginBottom="8dp"
-            android:scaleType="fitCenter"
+            android:scaleType="centerInside"
             app:layout_constraintBottom_toTopOf="@+id/tryAgainButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +47,7 @@
             android:layout_marginStart="@dimen/vertical_margin"
             android:layout_marginTop="@dimen/vertical_margin"
             android:layout_marginEnd="@dimen/vertical_margin"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="16dp"
             android:paddingStart="@dimen/button_padding"
             android:paddingEnd="@dimen/button_padding"
             android:text="@string/try_again"
@@ -57,6 +57,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/gameOverFragment" />
+            app:layout_constraintTop_toBottomOf="@+id/youLoseImage" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

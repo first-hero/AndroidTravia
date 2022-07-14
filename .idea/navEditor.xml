@@ -8,7 +8,7 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="nav_game">
+                  <entry key="GameFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -20,19 +20,31 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="nav_game_over">
+                  <entry key="gameOverFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="448" />
-                            <option name="y" value="36" />
+                            <option name="x" value="475" />
+                            <option name="y" value="269" />
                           </Point>
                         </option>
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="nav_home">
+                  <entry key="gameWonFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="485" />
+                            <option name="y" value="-165" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="titleFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -43,7 +55,7 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_nav_home_to_nav_game">
+                            <entry key="action_titleFragment_to_GameFragment">
                               <value>
                                 <LayoutPositions />
                               </value>

@@ -23,9 +23,7 @@ plugins {
 
 android {
     compileSdkVersion 32
-    buildFeatures {
-        dataBinding true
-    }
+
     defaultConfig {
         applicationId 'com.example.android.navigation'
         minSdkVersion 21
@@ -34,6 +32,12 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+
     buildTypes {
         release {
             minifyEnabled false
