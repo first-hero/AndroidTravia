@@ -12,7 +12,11 @@
         tools:layout="@layout/fragment_title" >
         <action
             android:id="@+id/action_titleFragment_to_GameFragment"
-            app:destination="@id/GameFragment" />
+            app:destination="@id/GameFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
     </fragment>
 
     <fragment
@@ -24,7 +28,11 @@
             android:id="@+id/action_GameFragment_to_gameWonFragment"
             app:destination="@id/gameWonFragment"
             app:popUpTo="@id/GameFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
         <action
             android:id="@+id/action_GameFragment_to_gameOverFragment"
             app:destination="@id/gameOverFragment"
