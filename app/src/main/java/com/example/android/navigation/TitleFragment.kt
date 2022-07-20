@@ -21,7 +21,6 @@ class TitleFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         // The usage of an interface lets you inject your own implementation
         val menuHost: MenuHost = requireActivity()
 
@@ -39,12 +38,10 @@ class TitleFragment : Fragment() {
                 // Handle the menu selection
                 return when (menuItem.itemId) {
                     R.id.aboutFragment -> {
-                        // clearCompletedTasks()
                         NavigationUI.onNavDestinationSelected(menuItem, requireView().findNavController())
                         true
                     }
                     R.id.rulesFragment -> {
-                        // loadTasks(true)
                         NavigationUI.onNavDestinationSelected(menuItem, requireView().findNavController())
                         true
                     }
